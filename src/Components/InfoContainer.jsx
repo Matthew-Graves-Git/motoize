@@ -1,6 +1,6 @@
 const InfoContainer = () => {
     return ( 
-        <div className='lg:w-auto h-auto w-screen min-w-[600px] flex items-center justify-center absolute top-0 lg:top-20 lg:left-60 bg-opacity-80 bg-gray-300'>
+        <div className='lg:w-auto h-auto w-screen min-w-[600px] flex items-center justify-center absolute top-0 pt-20 lg:pt-0 lg:top-20 lg:left-60 bg-opacity-80 bg-gray-300'>
             <div className='flex flex-col gap-8 p-10 lg:items-start items-center w-[582px]'>
                 <h1 className='text-4xl font-bold '>
                         Built for the great outdoors,<br/> ready for every adventure.

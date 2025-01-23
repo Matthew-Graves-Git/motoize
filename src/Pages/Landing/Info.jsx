@@ -34,7 +34,7 @@ const Info = () => {
                         The Toyota Highlander, Kia Telluride, Honda Pilot, 
                         and Hyundai Palisade can’t match that kind of standard capability
                         </p>
-                        <p>
+                        <p className="text-green-700 font-semibold">
                             Link Here
                         </p>
                     </span>
@@ -54,8 +54,8 @@ const Info = () => {
                         The Toyota Highlander, Kia Telluride, Honda Pilot, 
                         and Hyundai Palisade can’t match that kind of standard capability
                         </p>
-                        <p>
-                            Link Here
+                        <p className="text-green-700 font-semibold">
+                            See More
                         </p>
                     </span>
                     </div>
