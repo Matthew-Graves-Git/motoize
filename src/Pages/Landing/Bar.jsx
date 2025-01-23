@@ -12,7 +12,7 @@ const Bar = () => {
         },
         {
             title: "Trusted Car Dealers",
-            description: "With over 4 million cars sold, we have a proven track record of customer satisfaction.",
+            description: "Over 4 million cars sold, we have a proven track record of customer satisfaction.",
             icon:<VscWorkspaceTrusted/>,
         },
         {
@@ -28,15 +28,15 @@ const Bar = () => {
     ]
 
     return ( 
-        <section className="bg-green-100 py-28 z-20 relative w-screen h-full">
+        <section className="bg-gray-200 py-28 z-20 relative w-screen h-full">
             <h3 className="w-[70%] mx-auto mb-10 text-2xl font-bold">Why Choose Us?</h3>
-            <ul className="grid grid-cols-4 gap-4 w-[70%] mx-auto">
+            <ul className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-[70%] mx-auto">
                 {reasons.map(({title,description,icon},index)=>{
                     return(
                         <li className="flex flex-col gap-4" key={index}>
-                            <p className="text-2xl">{icon}</p>
-                            <h4>{title}</h4>
-                            <p>{description}</p>
+                            <p className="text-3xl text-green-600">{icon}</p>
+                            <h4 className="font-semibold">{title}</h4>
+                            <p className="lg:w-3/4">{description}</p>
                         </li>
                     )
                 })}

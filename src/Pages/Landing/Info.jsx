@@ -17,7 +17,7 @@ const Info = () => {
     return ( 
         <section className="bg-white h-full w-screen relative z-20">
             <div className="py-40 overflow-clip">
-                <img className="h-[28rem] lg:w-[70%] w-auto object-cover mx-auto px-8 mb-20" src={currentImg} alt="" />
+                <img className="h-[28rem] lg:w-[70%] w-auto object-cover mx-auto lg:px-8 mb-20" src={currentImg} alt="" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-8 lg:w-[70%] w-auto mx-auto">
                     <div  onMouseOver={(e)=>handleHover(e)} className="group">
                     <span id="1" className="flex flex-col gap-6 border-t-2 py-6 group-hover:border-green-950 group-hover:scale-105 cursor-pointer transition duration-500" >
