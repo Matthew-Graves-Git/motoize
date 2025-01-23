@@ -35,7 +35,7 @@ const Tools = () => {
         
     ]
     return ( 
-        <section className="bg-white h-full w-screen relative overflow-clip flex flex-col gap-12 justify-center items-center  z-20 p-20">
+        <section className="bg-white h-full w-screen relative overflow-clip flex flex-col gap-12 justify-center items-center  z-20 p-20 pb-40">
             <h2 className="text-xl font-bold text-gray-500">Shopping Tools</h2>
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
                 
